@@ -25,8 +25,11 @@ async function run() {
     await client.connect();
     // Send a ping to confirm a successful connection
     const toysCollection = client.db('avengersToysDB').collection('allToys');
+    const userCollection = client.db('avengersToysDB').collection('allUsers');
+
     app.get('/allToys', async (req, res) => {
-      const result = await toysCollection.find();
+      const result = await toysCollection.find().toArray();
+      console.log(result);
       res.send(result);
     });
 
