@@ -29,7 +29,12 @@ async function run() {
 
     app.get('/allToys', async (req, res) => {
       const result = await toysCollection.find().toArray();
-      console.log(result);
+      res.send(result);
+    });
+    app.post('/allToys', async (req, res) => {
+      const newToy = req.body;
+      console.log(newToy);
+      const result = await toysCollection.insertOne(newToy);
       res.send(result);
     });
 

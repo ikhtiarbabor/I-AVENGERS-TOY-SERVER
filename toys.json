@@ -1,83 +1,182 @@
 [
-    {
-      "pictureUrl": "https://images-na.ssl-images-amazon.com/images/I/51XyuwYrlhL.jpg",
-      "name": "Avengers Action Figure Set",
-      "price": "$29.99",
-      "rating": 4.7,
-      "details": "This Avengers Action Figure Set includes key characters from the beloved Marvel superhero team. The set features high-quality, detailed action figures of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Each figure is approximately 6 inches tall and comes with various accessories and interchangeable parts. The figures are poseable and perfect for recreating epic battles or displaying on a collector's shelf. Suitable for children aged 4 and above, this Avengers toy set sparks imagination and provides hours of superhero fun.",
-      "sellerName": "Heroic Collectibles"
-    },
-    {
-      "pictureUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F03%2Fhot-toys-avengers-infinity-war-thanos-infinity-gauntlet-life-size-collectible-00.jpg?w=960&cbr=1&q=90&fit=max",
-      "name": "Avengers Infinity Gauntlet",
-      "price": "$49.99",
-      "rating": 4.9,
-      "details": "With the Avengers Infinity Gauntlet, you can harness the power of the Infinity Stones, just like Thanos! This gauntlet is designed to fit most children's hands and features intricate details and light-up effects. By pressing the center gem, the gauntlet lights up and emits sound effects. It's the perfect accessory for any Avengers fan's costume or imaginative play. Note: This toy does not actually possess the power to alter reality or control the universe.",
-      "sellerName": "Superhero Emporium"
-    },
-    {
-      "pictureUrl": "https://images-na.ssl-images-amazon.com/images/I/81RzIObOsTL._AC_UL600_SR600,600_.jpg",
-      "name": "Avengers Headquarters Playset",
-      "price": "$79.99",
-      "rating": 4.5,
-      "details": "Create your own Avengers adventures with this interactive Headquarters Playset! The playset features multiple levels, including the command center, training area, and holding cells. It comes with action figure versions of Iron Man, Captain America, and Black Widow. The playset is packed with exciting features like a rotating missile launcher, trap doors, and sound effects. Compatible with other Avengers action figures (sold separately), this playset provides endless fun for young heroes.",
-      "sellerName": "Toys R Super"
-    },
-    {
-      "pictureUrl": "https://rukminim1.flixcart.com/image/416/416/jm81zm80/action-figure/g/e/v/8-pcs-set-marvel-avengers-infinity-war-thanos-hulk-iron-man-hulk-original-imaf8a53jvvsqepa.jpeg?q=70",
-      "name": "Avengers Plush Doll Set",
-      "price": "$19.99",
-      "rating": 4.8,
-      "details": "Cuddle up with your favorite Avengers superheroes with this plush doll set! The set includes huggable plush versions of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Each doll is approximately 10 inches tall and made with soft, durable materials. Perfect for both playtime and bedtime, these plush dolls bring comfort and fun to Avengers fans of all ages.",
-      "sellerName": "Marvel Merchandise Store"
-    },
-    {
-      "pictureUrl": "https://static.wikia.nocookie.net/lego/images/6/68/LEGO_76166_alt1.jpg/revision/latest?cb=20200604025547",
-      "name": "Avengers Battle Vehicles Set",
-      "price": "$39.99",
-      "rating": 4.6,
-      "details": "Get ready for epic battles with the Avengers Battle Vehicles Set! This set includes miniature versions of the Quinjet, the Avengers' iconic jet, and the Avengers' off-road vehicle. Both vehicles are highly detailed and come with movable parts and launching mechanisms. The set also includes action figures of Iron Man, Captain America, and Black Widow. Combine the vehicles and figures to create thrilling missions and adventures.",
-      "sellerName": "Superhero Toy World"
-    },
-    {
-      "pictureUrl": "https://i.pinimg.com/originals/3b/28/65/3b2865d0db85bbccf1644f368213d3af.jpg",
-      "name": "Avengers Hero Mask Collection",
-      "price": "$14.99",
-      "rating": 4.4,
-      "details": "Transform into your favorite Avenger with the Hero Mask Collection! This set includes masks of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Each mask features a comfortable elastic strap and is designed for both children and adults. Whether for costume parties, imaginative play, or cosplay events, these masks let you embody the heroic spirit of the Avengers.",
-      "sellerName": "Masked Heroes Emporium"
-    },
-    {
-      "pictureUrl": "https://example.com/avengers-toy-7.jpg",
-      "name": "Avengers LEGO Set: Battle for New York",
-      "price": "$59.99",
-      "rating": 4.7,
-      "details": "Relive the iconic Battle for New York with this Avengers LEGO Set! Recreate the epic battle scene from the Avengers movie with mini-figures of Iron Man, Captain America, Thor, Hulk, Black Widow, Loki, and Chitauri warriors. The set includes the Avengers Tower, Chitauri chariot, and various accessories. With its detailed construction and action-packed features, this LEGO set is a must-have for Marvel and LEGO enthusiasts.",
-      "sellerName": "Brick Avengers"
-    },
-    {
-      "pictureUrl": "https://pbs.twimg.com/media/D0_Iz2LWwAAfErx.jpg",
-      "name": "Avengers Roleplay Armor Set",
-      "price": "$34.99",
-      "rating": 4.5,
-      "details": "Gear up and become an Avenger with the Roleplay Armor Set! This set includes a chest plate, gauntlets, and a helmet inspired by the iconic Avengers characters. Each piece is made with lightweight, durable materials and features intricate details. The armor set is adjustable to fit most children and enhances imaginative play and superhero-themed events.",
-      "sellerName": "Superhero Gear Shop"
-    },
-    {
-      "pictureUrl": "https://cdn.shopify.com/s/files/1/0631/9970/7391/products/07722c-1.jpg?v=1653845481",
-      "name": "Avengers Puzzle Collection",
-      "price": "$12.99",
-      "rating": 4.3,
-      "details": "Challenge your problem-solving skills with the Avengers Puzzle Collection! This set includes four different puzzles featuring your favorite Avengers characters. Each puzzle has a varying number of pieces and difficulty level, suitable for both children and adults. Made with high-quality materials, these puzzles provide hours of entertainment and can be framed for display once completed.",
-      "sellerName": "Puzzle Planet"
-    },
-    {
-      "pictureUrl": "https://cdnqa.toysrusmena.com/img/TRU/QAT/Catalogs/toysrus-master-catalog/en_QA/large/2128717_103@3x.jpg",
-      "name": "Avengers Laser Tag Battle Set",
-      "price": "$49.99",
-      "rating": 4.6,
-      "details": "Engage in exciting laser tag battles with the Avengers Laser Tag Battle Set! The set includes two laser blasters featuring Avengers-themed designs and sound effects. Strap on the adjustable target vests and challenge your friends or family to epic laser tag battles. The blasters have multiple firing modes and adjustable power settings. With its Avengers-inspired design, this laser tag set guarantees hours of action-packed fun.",
-      "sellerName": "Battle Zone Games"
-    }
-  ]
-  
+  {
+    "pictureUrl": "https://images-na.ssl-images-amazon.com/images/I/51XyuwYrlhL.jpg",
+    "name": "Avengers Action Figure Set",
+    "price": 29.99,
+    "rating": 4.7,
+    "details": "This Avengers Action Figure Set includes key characters from the beloved Marvel superhero team. The set features high-quality, detailed action figures of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Each figure is approximately 6 inches tall and comes with various accessories and interchangeable parts. The figures are poseable and perfect for recreating epic battles or displaying on a collector's shelf. Suitable for children aged 4 and above, this Avengers toy set sparks imagination and provides hours of superhero fun.",
+    "sellerName": "Heroic Collectibles",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2018%2F03%2Fhot-toys-avengers-infinity-war-thanos-infinity-gauntlet-life-size-collectible-00.jpg?w=960&cbr=1&q=90&fit=max",
+    "name": "Avengers Deluxe Action Figure Set",
+    "price": 39.99,
+    "rating": 4.8,
+    "details": "Enhance your Avengers collection with this Deluxe Action Figure Set! This set includes deluxe versions of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye action figures. Each figure stands at approximately 8 inches tall and features enhanced articulation, detailed sculpting, and premium paintwork. The set also includes a variety of accessories, allowing you to recreate iconic poses and dynamic battle scenes. Suitable for collectors and fans of all ages, this deluxe set brings the Avengers to life in stunning detail.",
+    "sellerName": "Collector's Haven",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://images-na.ssl-images-amazon.com/images/I/81RzIObOsTL._AC_UL600_SR600,600_.jpg",
+    "name": "Avengers Infinity Gauntlet",
+    "price": 49.99,
+    "rating": 4.9,
+    "details": "With the Avengers Infinity Gauntlet, you can harness the power of the Infinity Stones, just like Thanos! This gauntlet is designed to fit most children's hands and features intricate details and light-up effects. By pressing the center gem, the gauntlet lights up and emits sound effects. It's the perfect accessory for any Avengers fan's costume or imaginative play. Note: This toy does not actually possess the power to alter reality or control the universe.",
+    "sellerName": "Superhero Emporium",
+    "subCategory": "Roleplay Accessories"
+  },
+  {
+    "pictureUrl": "https://rukminim1.flixcart.com/image/416/416/jm81zm80/action-figure/g/e/v/8-pcs-set-marvel-avengers-infinity-war-thanos-hulk-iron-man-hulk-original-imaf8a53jvvsqepa.jpeg?q=70",
+    "name": "Avengers Hero Power Gauntlet",
+    "price": 59.99,
+    "rating": 4.7,
+    "details": "Unleash your inner hero with the Avengers Hero Power Gauntlet! This interactive gauntlet features articulated fingers and sound effects inspired by the Avengers movies. By moving your fingers, you can activate different sound effects and recreate powerful gestures. The gauntlet also includes six collectible Power Port discs that unlock additional sounds and phrases when inserted. Experience the power of the Avengers and imagine yourself joining the fight against evil!",
+    "sellerName": "Marvel Superstore",
+    "subCategory": "Roleplay Accessories"
+  },
+  {
+    "pictureUrl": "https://static.wikia.nocookie.net/lego/images/6/68/LEGO_76166_alt1.jpg/revision/latest?cb=20200604025547",
+    "name": "Avengers Headquarters Playset",
+    "price": 79.99,
+    "rating": 4.5,
+    "details": "Create your own Avengers adventures with this interactive Headquarters Playset! The playset features multiple levels, including the command center, training area, and holding cells. It comes with action figure versions of Iron Man, Captain America, and Black Widow. The playset is packed with exciting features like a rotating missile launcher, trap doors, and sound effects. Compatible with other Avengers action figures (sold separately), this playset provides endless fun for young heroes.",
+    "sellerName": "Toys R Super",
+    "subCategory": "Playsets"
+  },
+  {
+    "pictureUrl": "https://i.pinimg.com/originals/3b/28/65/3b2865d0db85bbccf1644f368213d3af.jpg",
+    "name": "Avengers Tower Battle Playset",
+    "price": 99.99,
+    "rating": 4.6,
+    "details": "Engage in thrilling battles with the Avengers Tower Battle Playset! This playset recreates the iconic Avengers Tower and includes action figures of Iron Man, Hulk, and two Chitauri warriors. The playset features multiple levels, trap doors, secret compartments, and a zip line for exciting action sequences. With its interactive features and detailed design, this playset brings the excitement of Avengers battles to life.",
+    "sellerName": "Superhero Playsets",
+    "subCategory": "Playsets"
+  },
+  {
+    "pictureUrl": "https://static-01.daraz.com.bd/p/c0f40594baa77942483afe28325ab513.jpg",
+    "name": "Avengers Plush Doll Set",
+    "price": 19.99,
+    "rating": 4.8,
+    "details": "Cuddle up with your favorite Avengers superheroes with this plush doll set! The set includes huggable plush versions of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Each doll is approximately 10 inches tall and made with soft, durable materials. Perfect for both playtime and bedtime, these plush dolls bring comfort and fun to Avengers fans of all ages.",
+    "sellerName": "Marvel Merchandise Store",
+    "subCategory": "Plush Toys"
+  },
+  {
+    "pictureUrl": "https://pbs.twimg.com/media/D0_Iz2LWwAAfErx.jpg",
+    "name": "Avengers Mini Plush Keychain Set",
+    "price": 9.99,
+    "rating": 4.5,
+    "details": "Carry the Avengers with you wherever you go with this Mini Plush Keychain Set! The set includes mini plush keychain versions of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye. Each keychain is approximately 4 inches tall and features a sturdy keyring attachment. Decorate your keys, backpack, or bag with these adorable Avengers keychains and show off your superhero fandom.",
+    "sellerName": "Heroic Accessories",
+    "subCategory": "Plush Toys"
+  },
+  {
+    "pictureUrl": "https://cdn.shopify.com/s/files/1/0631/9970/7391/products/07722c-1.jpg?v=1653845481",
+    "name": "Avengers Battle Vehicles Set",
+    "price": 39.99,
+    "rating": 4.6,
+    "details": "Get ready for epic battles with the Avengers Battle Vehicles Set! This set includes miniature versions of the Quinjet, the Avengers' iconic jet, and the Avengers' off-road vehicle. Both vehicles are highly detailed and come with movable parts and launching mechanisms. The set also includes action figures of Iron Man, Captain America, and Black Widow. Combine the vehicles and figures to create thrilling missions and adventures.",
+    "sellerName": "Superhero Toy World",
+    "subCategory": "Vehicles"
+  },
+  {
+    "pictureUrl": "https://cdnqa.toysrusmena.com/img/TRU/QAT/Catalogs/toysrus-master-catalog/en_QA/large/2128717_103@3x.jpg",
+    "name": "Avengers Motorcycle Helmet",
+    "price": 69.99,
+    "rating": 4.7,
+    "details": "Ride like a superhero with the Avengers Motorcycle Helmet! This full-face helmet is designed for motorcycle enthusiasts and Avengers fans alike. It features a durable outer shell, adjustable chin strap, and a comfortable interior lining. The helmet showcases the Avengers logo and vibrant graphics of various Avengers characters. Stay safe on the road while showcasing your love for the Marvel universe.",
+    "sellerName": "Riders of Asgard",
+    "subCategory": "Costumes & Accessories"
+  },
+  {
+    "pictureUrl": "https://ae01.alicdn.com/kf/HTB1u6_FaOLrK1Rjy1zdq6ynnpXa2/5pcs-Set-The-Avenger-Small-Plush-Toy-Key-chain-Bag-Pendant-Iron-man-Spiderman-Captain-America.jpg",
+    "name": "Avengers Titan Hero Series Figures",
+    "price": 19.99,
+    "rating": 4.6,
+    "details": "Collect all your favorite Avengers characters with the Titan Hero Series Figures! This set includes 12-inch action figures of Iron Man, Captain America, Thor, Hulk, Black Widow, Hawkeye, Falcon, Ant-Man, Spider-Man, Black Panther, Doctor Strange, and Captain Marvel. Each figure features multiple points of articulation for dynamic posing. Imagine epic battles or create your own Avengers team with these larger-than-life figures.",
+    "sellerName": "Marvel Action Figures Emporium",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://cdn.s7.shopdisney.eu/is/image/DisneyStoreES/461012371210-8?fmt=jpeg&qlt=90&wid=652&hei=652&defaultImage=no-image-image_uk",
+    "name": "Avengers Legends Series Figures",
+    "price": 24.99,
+    "rating": 4.8,
+    "details": "Experience premium quality and detail with the Avengers Legends Series Figures! This series features highly articulated 6-inch figures of iconic Avengers characters. Each figure comes with character-specific accessories and a build-a-figure component. Collect all the figures in the series to assemble a larger figure, such as Thanos or Hulk. Perfect for display or play, these figures bring the Marvel universe to life.",
+    "sellerName": "Legends Collectibles",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://cdn.popcultcha.com.au/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/j/a/jad30795-marvel---nano-metalfigs-2_-die-cast-figure-20-pack-_series-3_-3.jpeg",
+    "name": "Avengers Nano Metalfigs Figure Set",
+    "price": 14.99,
+    "rating": 4.5,
+    "details": "Collect and display your favorite Avengers characters with the Nano Metalfigs Figure Set! This set includes 10 highly detailed 1.65-inch metal figures of Iron Man, Captain America, Thor, Hulk, Black Widow, Hawkeye, Falcon, Ant-Man, Spider-Man, and Black Panther. Each figure comes with a collector's display stand. Made with high-quality die-cast metal, these figures are perfect for collectors and fans of all ages.",
+    "sellerName": "Metalfigs Universe",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://media.entertainmentearth.com/assets/images/94c09629b18545059e06adf4856faafflg.jpg",
+    "name": "Avengers Mighty Muggs Figures",
+    "price": 9.99,
+    "rating": 4.7,
+    "details": "Get ready for some adorable superhero fun with the Avengers Mighty Muggs Figures! These figures feature a unique design with a rotating head and three different facial expressions. With a simple press, you can change the expression of your favorite Avengers characters like Iron Man, Captain America, Thor, Hulk, Black Widow, Hawkeye, and more. Collect them all and create your own expressive Avengers team.",
+    "sellerName": "Mighty Muggs Collectibles",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://www.bigw.com.au/medias/sys_master/images/images/h43/hba/15292651700254.jpg",
+    "name": "Avengers NERF Power Moves Blasters",
+    "price": 19.99,
+    "rating": 4.4,
+    "details": "Gear up for action-packed battles with the Avengers NERF Power Moves Blasters! These blasters are designed to resemble the weapons of your favorite Avengers characters. Choose from blasters inspired by Iron Man, Captain America, Thor, or Black Panther. Each blaster comes with NERF darts and features power moves sound effects. Join the Avengers and unleash your NERF firepower against the forces of evil.",
+    "sellerName": "NERF Superheroes",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://cf.shopee.com.my/file/0c19bc6786313604ec67db2237ae2558",
+    "name": "Avengers Titan Hero Power FX Figures",
+    "price": 14.99,
+    "rating": 4.6,
+    "details": "Activate heroic phrases and sound effects with the Avengers Titan Hero Power FX Figures! These 12-inch action figures of Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye feature a power pack accessory. Connect the power pack to the figure to unlock phrases and sound effects. With the Titan Hero Power FX Figures, you can bring the Avengers to life and imagine exciting adventures.",
+    "sellerName": "Hero FX Collectibles",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://rukminim1.flixcart.com/image/416/416/jwzabgw0/action-figure/t/v/e/mystery-minis-avengers-endgame-one-mystery-figure-multicolor-original-imafhju3fasdu3ct.jpeg?q=70",
+    "name": "Avengers Battle Masters Figures",
+    "price": 12.99,
+    "rating": 4.5,
+    "details": "Unleash the power of the Avengers with the Battle Masters Figures! These 6-inch action figures feature punch-activated features. Swing your fist to activate punching or blasting actions. Choose from figures like Iron Man, Captain America, Thor, Hulk, Black Widow, and Hawkeye, and engage in epic battles. Collect multiple figures and stage thrilling showdowns between the Avengers and their foes.",
+    "sellerName": "Battle Masters Emporium",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://i.marvelousnews.com/g/generated/Reviews/Funko/Funko_Avengers_Age_Of_Ultron_Mystery_Minis/Funko_Avengers_Age_Of_Ultron_Mystery_Minis00__scaled_800.jpg",
+    "name": "Avengers Mystery Minis Figures",
+    "price": 7.99,
+    "rating": 4.7,
+    "details": "Discover the excitement of mystery and collectibility with the Avengers Mystery Minis Figures! These blind box figures feature a variety of Avengers characters in a cute and stylized design. Each blind box contains one randomly selected figure. Will you find Iron Man, Captain America, Thor, Hulk, Black Widow, or one of the rare chase figures? Collect them all and add a touch of mystery to your Avengers collection.",
+    "sellerName": "Mystery Minis Universe",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://media.comicbook.com/2020/09/avengers-assemble-funko-complete-1238346.jpeg?auto=webp",
+    "name": "Avengers Funko POP! Vinyl Figures",
+    "price": 9.99,
+    "rating": 4.8,
+    "details": "Bring home the adorable charm of the Avengers with the Funko POP! Vinyl Figures! These stylized figures stand approximately 3.75 inches tall and feature the classic Funko POP! design. Choose from a wide range of Avengers characters, including Iron Man, Captain America, Thor, Hulk, Black Widow, Hawkeye, and more. Collect them all and display your Avengers team in Funko POP! style.",
+    "sellerName": "Funko Collectibles",
+    "subCategory": "Action Figures"
+  },
+  {
+    "pictureUrl": "https://i5.walmartimages.ca/images/Enlarge/651/479/6000203651479.jpg",
+    "name": "Avengers Bend and Flex Figures",
+    "price": 11.99,
+    "rating": 4.6,
+    "details": "Flex and pose your favorite Avengers characters with the Bend and Flex Figures! These 6-inch action figures feature bendable limbs that allow for dynamic posing and action-packed play. Twist, bend, and flex your figures into various poses and recreate epic Avengers battles. Choose from figures like Iron Man, Captain America, Thor, Hulk, Black Widow, Hawkeye, and more.",
+    "sellerName": "Flex Figures Emporium",
+    "subCategory": "Action Figures"
+  }
+]
