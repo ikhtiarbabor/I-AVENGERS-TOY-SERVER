@@ -26,14 +26,16 @@ async function run() {
     // Send a ping to confirm a successful connection
     const toysCollection = client.db('avengersToysDB').collection('allToys');
     const userCollection = client.db('avengersToysDB').collection('allUsers');
-
     app.get('/allToys', async (req, res) => {
-      const result = await toysCollection.find().toArray();
+      let query = {};
+      if (req.query?.email && req.query?.sellerName) {
+        query = { email: req.query.email, sellerName: req.query.sellerName };
+      }
+      const result = await toysCollection.find(query).toArray();
       res.send(result);
     });
     app.post('/allToys', async (req, res) => {
       const newToy = req.body;
-      console.log(newToy);
       const result = await toysCollection.insertOne(newToy);
       res.send(result);
     });
