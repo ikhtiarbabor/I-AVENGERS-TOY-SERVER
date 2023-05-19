@@ -17,19 +17,36 @@ const client = new MongoClient(uri, {
     strict: true,
     deprecationErrors: true,
   },
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  maxPoolSize: 10,
 });
 
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect();
+    await client.connect((err) => {
+      if (err) {
+        console.log(err);
+        return;
+      }
+    });
     // Send a ping to confirm a successful connection
     const toysCollection = client.db('avengersToysDB').collection('allToys');
     const userCollection = client.db('avengersToysDB').collection('allUsers');
     app.get('/allToys', async (req, res) => {
       let query = {};
+      console.log(req.query);
       if (req.query?.email && req.query?.sellerName) {
         query = { email: req.query.email, sellerName: req.query.sellerName };
+      } else if (req.query.ascending === 'true') {
+        const sort = { price: 1 };
+        const result = await toysCollection.find(query).sort(sort).toArray();
+        return res.send(result);
+      } else if (req.query.ascending === 'false') {
+        const sort = { price: -1 };
+        const result = await toysCollection.find(query).sort(sort).toArray();
+        return res.send(result);
       }
       const result = await toysCollection.find(query).toArray();
       res.send(result);
@@ -39,6 +56,18 @@ async function run() {
       const result = await toysCollection.insertOne(newToy);
       res.send(result);
     });
+
+    app.get('/allToys/:id', async (req, res) => {
+      const filter = { _id: new ObjectId(req.params.id) };
+      const result = await toysCollection.findOne(filter);
+      result.send(result);
+    });
+    app.delete('/allToys/:id', async (req, res) => {
+      const filter = { _id: new ObjectId(req.params.id) };
+      const result = await toysCollection.deleteOne(filter);
+      res.send(result);
+    });
+
     app.patch('/allToys/:id', async (req, res) => {
       const newToy = req.body;
       const filter = { _id: new ObjectId(req.params.id) };
@@ -47,7 +76,7 @@ async function run() {
           ...newToy,
         },
       };
-      const result = await toysCollection.updateOne(filter,updateToy);
+      const result = await toysCollection.updateOne(filter, updateToy);
       res.send(result);
     });
 
