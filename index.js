@@ -34,9 +34,19 @@ async function run() {
     // Send a ping to confirm a successful connection
     const toysCollection = client.db('avengersToysDB').collection('allToys');
     const userCollection = client.db('avengersToysDB').collection('allUsers');
+    const indexKeys = { name: 1 };
+    const indexOption = { name: 'findWithName' };
+    const result = await toysCollection.createIndex(indexKeys, indexOption);
     app.get('/allToys', async (req, res) => {
       let query = {};
-      console.log(req.query);
+
+      if (req.query?.search) {
+        const searchText = req.query.search;
+        const result = await toysCollection
+          .find({ $or: [{ name: { $regex: searchText, $options: 'i' } }] })
+          .toArray();
+        return res.send(result);
+      }
       if (req.query?.email && req.query?.sellerName) {
         query = { email: req.query.email, sellerName: req.query.sellerName };
       } else if (req.query.ascending === 'true') {
@@ -51,6 +61,7 @@ async function run() {
       const result = await toysCollection.find(query).toArray();
       res.send(result);
     });
+
     app.post('/allToys', async (req, res) => {
       const newToy = req.body;
       const result = await toysCollection.insertOne(newToy);
