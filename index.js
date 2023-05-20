@@ -7,8 +7,8 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-
-const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.1yvmtut.mongodb.net/?retryWrites=true&w=majority`;
+const uri = 'mongodb://0.0.0.0:27017';
+// const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.1yvmtut.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -25,18 +25,37 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
-    await client.connect((err) => {
-      if (err) {
-        console.log(err);
-        return;
-      }
-    });
+    await client.connect();
+    // await client.connect((err) => {
+    //   if (err) {
+    //     console.log(err);
+    //     return;
+    //   }
+    // });
     // Send a ping to confirm a successful connection
     const toysCollection = client.db('avengersToysDB').collection('allToys');
     const userCollection = client.db('avengersToysDB').collection('allUsers');
     const indexKeys = { name: 1 };
     const indexOption = { name: 'findWithName' };
     const result = await toysCollection.createIndex(indexKeys, indexOption);
+
+    app.post('/allUsers', async (req, res) => {
+      const newUser = req.body;
+      const filter = await userCollection.findOne({ email: req.body.email });
+      if (filter) {
+        return res.send({ error: true, errorMessage: 'Email Already exists' });
+      }
+      const result = await userCollection.insertOne({ ...newUser });
+      res.send(result);
+    });
+
+    app.get('/allToys/:id', async (req, res) => {
+      const result = await toysCollection.findOne({
+        _id: new ObjectId(req.params.id),
+      });
+      res.send(result);
+    });
+
     app.get('/allToys', async (req, res) => {
       let query = {};
 
@@ -49,6 +68,8 @@ async function run() {
       }
       if (req.query?.email && req.query?.sellerName) {
         query = { email: req.query.email, sellerName: req.query.sellerName };
+        const result = await toysCollection.find(query).toArray();
+        return res.send(result);
       } else if (req.query.ascending === 'true') {
         const sort = { price: 1 };
         const result = await toysCollection.find(query).sort(sort).toArray();
@@ -58,7 +79,26 @@ async function run() {
         const result = await toysCollection.find(query).sort(sort).toArray();
         return res.send(result);
       }
-      const result = await toysCollection.find(query).toArray();
+      const result = await toysCollection.find(query).limit(10).toArray();
+      res.send(result);
+    });
+    app.get('/allToys/subCat/:subCat', async (req, res) => {
+      const query = req.params.subCat;
+      console.log(query);
+      const result = await toysCollection
+        .find({ subCategory: query })
+        .limit(3)
+        .toArray();
+      console.log(result);
+      res.send(result);
+    });
+
+    app.get('/newArrives', async (req, res) => {
+      const result = await toysCollection
+        .find()
+        .limit(8)
+        .sort({ publishDate: 1 })
+        .toArray();
       res.send(result);
     });
 
