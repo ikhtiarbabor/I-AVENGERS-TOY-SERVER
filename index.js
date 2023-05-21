@@ -6,9 +6,16 @@ const port = process.env.PORT || 5000;
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+// const corsConfig = {
+//   origin: '',
+//   credentials: true,
+//   methods: ['GET', 'POST', 'PUT', 'DELETE'],
+// };
+// app.use(cors(corsConfig));
+// app.options('', cors(corsConfig));
+app.use(cors())
 // const uri = 'mongodb://0.0.0.0:27017';
-const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.1yvmtut.mongodb.net/?retryWrites=true&w=majority`;
+ const uri = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.1yvmtut.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -26,19 +33,18 @@ async function run() {
   try {
     // Connect the client to the server	(optional starting in v4.7)
     // await client.connect();
-    await client.connect((err) => {
-      if (err) {
-        console.log(err);
-        return;
-      }
-    });
+    // client.connect((err) => {
+    //   if (err) {
+    //     console.log(err);
+    //     return;
+    //   }
+    // });
     // Send a ping to confirm a successful connection
     const toysCollection = client.db('avengersToysDB').collection('allToys');
     const userCollection = client.db('avengersToysDB').collection('allUsers');
     const indexKeys = { name: 1 };
     const indexOption = { name: 'findWithName' };
     const result = await toysCollection.createIndex(indexKeys, indexOption);
-
     app.post('/allUsers', async (req, res) => {
       const newUser = req.body;
       const filter = await userCollection.findOne({ email: req.body.email });
